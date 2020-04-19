@@ -1,0 +1,28 @@
+/*styles*/
+
+@/* TODO(you) : What is this doing to your page? */
+body{
+  font-family: : monospace;
+
+
+}
+
+main{
+	margin : 20px;
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+  padding: 5px;
+}
